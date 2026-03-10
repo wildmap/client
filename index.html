@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      viewport: user-scalable=no 防止移动端双击缩放影响游戏操作；
+      viewport-fit=cover 确保刘海屏全面屏下 Canvas 铺满安全区。
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#08090d" />
+    <meta name="description" content="WildMap — 实时策略地图对战游戏" />
+    <!-- 移动端 Web App 支持 -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- 禁止 iOS/Android 自动检测电话号码/地址链接 -->
+    <meta name="format-detection" content="telephone=no, email=no, address=no" />
+    <title>WildMap</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
